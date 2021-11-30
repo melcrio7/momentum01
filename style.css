@@ -1,0 +1,126 @@
+.hidden {
+    display: none
+
+}
+
+
+#login-form {
+    text-align: center;
+
+
+}
+
+#login-form input:first-child {
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.3rem;
+    padding: 10px;
+    width: 240px;
+    transition: 0.4s;
+}
+
+
+#login-form input:nth-child(2) {
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    border: 20px;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#login-form input:nth-child(2):hover {
+    background-color: rgba(241, 235, 223, 0.966);
+}
+
+#login-form input:nth-child(2):active {
+    background-color: blue;
+    color: white;
+    outline: none;
+}
+
+#clock {
+    text-align: center;
+    height: 100px;
+    color: white;
+    font-size: 4rem;
+    margin: 20px;
+
+
+}
+
+#greeting {
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-weight:800;
+    font-size: 4rem;
+
+
+}
+
+#todo-form {
+    text-align: center;
+    margin: 20px;
+}
+
+#todo-form input {
+    text-align: center;
+
+    font-size: 2rem;
+    width: 540px;
+    height: 40px;
+
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: -50px;
+    transition: all, 0.4s;
+}
+
+
+#todo-list li {
+    text-align: center;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+    width: 500px;
+    margin: auto;
+    font-weight: bold;
+
+}
+
+#weather {
+    position: absolute;
+    color: white;
+    top: 98px;
+    font-size: 20px;
+    right: 50px;
+}
+
+
+#quote {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#brImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    filter: brightness(80%);
+}
