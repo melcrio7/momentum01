@@ -1,0 +1,32 @@
+prod-game
+
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        7.6G   60K  7.6G   1% /dev
+tmpfs           7.7G     0  7.7G   0% /dev/shm
+/dev/nvme0n1p1  7.8G  1.8G  5.9G  24% /
+/dev/nvme1n1    196G  963M  185G   1% /data
+
+feed
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        1.9G   60K  1.8G   1% /dev
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+/dev/nvme0n1p1  7.8G  2.0G  5.7G  26% /
+/dev/nvme1n1    984G  327G  607G  35% /data
+
+prod-pro
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        1.9G   60K  1.8G   1% /dev
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+/dev/nvme0n1p1  7.8G  4.6G  3.1G  60% /
+/dev/nvme1n1    393G   30G  344G   8% /data
+/dev/nvme2n1    196G  479M  186G   1% /data2
+
+prod-log2
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        3.8G     0  3.8G   0% /dev
+tmpfs           3.8G     0  3.8G   0% /dev/shm
+tmpfs           3.8G  488K  3.8G   1% /run
+tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup
+/dev/nvme0n1p1  8.0G  3.2G  4.9G  40% /
+/dev/nvme1n1    197G   94G   94G  50% /data
+tmpfs           769M     0  769M   0% /run/user/1000
